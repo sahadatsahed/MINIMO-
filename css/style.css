@@ -1,0 +1,180 @@
+/*google fonts integrate*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+</style>
+
+/*global css here*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,p,span,button{
+	font-family: 'Playfair Display', serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/*header section css here*/
+.header{
+	width: 100%;
+}
+.navbar{
+	margin: 25px 0;
+}
+.nav-item{
+	margin-left: 60px;
+}
+.nav-link{
+	color: #b4ad9e !important;
+	transition: all 0.5s ease-in-out;
+}
+.nav-link:hover{
+	text-transform: uppercase;
+	color: #000 !important;
+}
+
+/*single blog section css here*/
+.single-blog{
+	width: 100%;
+}
+
+.blog-desc{
+	padding: 60px;
+
+}
+.blog-desc span{
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.blog-desc p{
+	margin-bottom: 30px;
+
+}
+.blog-desc h1{
+	margin-bottom: 18px;
+	margin-top: 18px;
+
+
+}
+
+/*blog gallery section css here*/
+.blog-gallery{
+	width: 100%;
+	padding: 60px;
+
+}
+.post{
+	
+}
+
+.post .image {
+	margin-bottom: 30px;
+}
+.post .post-desc span{
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.post .post-desc p{
+	margin-bottom: 25px;
+}
+.post .post-desc h2{
+	margin-bottom: 18px;
+	margin-top: 18px;
+}
+.post .post-desc a{
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.col-md-6{
+	margin-bottom: 60px;
+	padding: 40px;
+}
+
+/*subscribe section css here*/
+.subscribe{
+	width: 100%
+	padding: 50px !important;
+	text-align: center;
+    background: #f0f0f0;
+}
+.row{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.subscribe h1{
+	margin-bottom: 32px;
+}
+form input{
+	padding:20px 0 10px 0;
+	width: 40%;
+	border:none;
+	background: transparent;
+	border-bottom: 0.5px solid black;
+}
+form input:focus{
+	outline: none;
+}
+
+form{
+	position: relative;
+}
+form a i{
+	position: absolute;
+	top: 30px;
+	right: 32%;
+	color: black;
+}
+/*Load more button section css here*/
+.button{
+	text-align: center;
+}
+.button button{
+	padding: 10px 30px;
+    border: none;
+    border: 1px solid #b4ad9e;
+    background: transparent;
+    color: #b4ad9e;
+    font-size: 20px;
+    transition:all 0.5s ease-in-out; 
+}
+.button button:hover{
+	color: black;
+    transition:all 0.5s ease-in-out;
+    border: 1px solid black;
+
+
+}
+/*footer part css here*/
+
+.footer{
+	width: 100%;
+	background: #f0f0f0;
+
+
+}
+.row{
+	padding-top: 50px;
+}
+.footer ul{
+	font-size: 20px;
+}
+.footer ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+.footer ul li a{
+	color: black;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.left ul li{
+	margin-right: 25px;
+
+}
+.right ul li{
+	margin-left: 25px;
+}
